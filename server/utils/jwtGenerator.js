@@ -8,7 +8,8 @@ function jwtGenerator(user_id) {
     }
   };
   
-//fthe tutorial code was like this below for the jwtGenerator
+//the code below was the code written from the tutorial
+//Look at file server/routes/dashboard.js to see the change code for this code
   
 //   function jwtGenerator(user_id) {
 //   const payload = {
