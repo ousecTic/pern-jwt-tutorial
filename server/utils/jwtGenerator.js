@@ -7,6 +7,13 @@ function jwtGenerator(user_id) {
       id: user_id
     }
   };
+  
+//fthe tutorial code was like this below for the jwtGenerator
+  
+//   function jwtGenerator(user_id) {
+//   const payload = {
+//     user: user_id
+//   };
 
   return jwt.sign(payload, process.env.jwtSecret, { expiresIn: "1h" });
 }
